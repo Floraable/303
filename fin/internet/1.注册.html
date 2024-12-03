@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册信息</title>
+    <style>
+        /* 注册信息 */
+        .title{
+            font-size:50px;
+        }
+        body{
+         /* 文本间距 */
+            line-height: 20px;
+            /* 字体 */
+            background: url(../internet/image/underground.jpg);
+            background-size: cover;
+            color:rgba(230, 230, 244, 0.907);
+            /* 字体大小 谷歌默认大小 16px */
+            font-size: 18px;
+            /* 文字居中 */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+         } 
+    </style>
+</head>
+<body>
+    <div><h1 class="title">注册信息</h1>
+    <form action="注册信息">
+    自建账号<input type="text" placeholder="邮箱/手机号码">
+    <br><br>
+    创建密码<input type="password" placeholder="最少6位密码">
+    <br><br>
+    口味:
+    <input type="radio" name="identify" id="sweet"> <label for="sweet"></label> 甜粽
+    <input type="radio" name="identify" id="salty"> <label for="salty"></label> 咸粽
+    <br><br>
+    你钟爱的菜单：
+    <select>
+        <option>川菜</option>
+        <option>桂菜</option>
+        <option>粤菜</option>
+        <option>东北菜</option>
+        <option>其它</option>
+    </select>
+    <br><br>
+    <!-- 默认同意 -->
+    多选框：<input type="checkbox" checked> 同意进入美食世界
+    <button type="submit">注册</a></button>
+    <button type="reset">重置</button>
+   </form>
+   </div>
+</body>
+</html>

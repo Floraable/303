@@ -1,0 +1,101 @@
+/* 各个网页相同的头部底部 */
+/* 版心居中 */
+.wrapper{
+    margin:0 auto;
+    width: 1200px;
+}
+body{
+   background-color: rgb(215, 231, 215);
+}
+/* 头部导航 */
+.top{
+    height: 100px;
+    background-color:#F1D145;
+}
+.top .wrapper{
+    padding-top: 25px;
+    /* 字水平摆放 */
+    display: flex;
+}
+/* <!-- 顶部logo --> */
+.logo a {
+    display: block;
+    width: 87px;
+    height: 70px;
+    margin-left: 250px;
+    background-image: url(../image/up.png);
+    background-size: contain;
+    font-size: 0;
+}
+/* 顶部导航 */
+/* 导航与logo间距 */
+.nav {
+    margin-left: 150px;
+}
+/* 导航文字一行 */
+.nav ul{
+    display: flex;
+}
+/* 文字间距 */
+.nav li{
+    margin-right: 24px;
+}
+/* 超链接间距 */
+.nav li a{
+    display: block;
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+/* 类选择器 */
+.nav li.active,
+.nav li a:hover{
+    border-bottom: 2px solid #45f16d;
+}
+/* 用户 */
+.user img{
+    right: 10px;
+    vertical-align: middle;
+}
+.user span{
+    font-size: 16px;
+    color: #666;
+}
+/* 底部 */
+.footer{
+    height: 500px;
+    background-color: #f1f145;
+    bottom: 0;
+    position: relative;
+}
+.help{
+    height: 200px;
+    border-bottom: 3px solid rgb(255, 255, 0);
+    padding-top: 12px;
+    justify-content: space-between;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    color: #20222186;
+}
+.copyright{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(35, 170, 130);
+}
+.copyright p a{
+    margin: 0 20px;
+    color: #666;
+    border-bottom: 2px solid #45f16a;
+}
+.copyright p a:hover{
+    color: #458ff1;
+}
+.picture a {
+    display: flex;
+    margin-left: 766px;
+    width: 150px;
+    height: 125px;
+    background-image: url(../image/up.png);
+    background-size: contain;
+}

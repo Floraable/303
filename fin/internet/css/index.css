@@ -1,0 +1,66 @@
+/* 首页样式 */
+/* banner 区域 */
+.banner {
+    height: 420px;
+    background-color: #b39d3089;
+  }
+  
+  .banner .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+    height: 420px;
+    background-image: url(../uploads/蒸笼.jpg);
+  }
+  
+  /* 侧导航 */
+  .banner .left {
+    padding: 3px 18px;
+    width: 160px;
+    height: 360px;
+    background-color: rgba(0,0,0,0.42);
+  }
+  
+  .banner .left a {
+    /* 块级：宽度是父级的100% */
+    display: block;
+    height: 72px;
+    background: url(../image/right.png) no-repeat right center;
+    line-height: 72px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .banner .left a:hover {
+    background-image: url(../images/right-hover.png);
+    color: #00a4ff;
+  }
+
+  /* 历史 */
+.history{
+    height: 400px;
+    background-color: #f3f3f4;
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: brown;
+}
+p{
+    /* 首行缩进 */
+    text-indent: 2em;
+    font-size: 19px;
+    color: #444;
+    line-height: 30px;
+}
+.pic{
+    text-align: center;
+}
+.history .words {
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+    height: 420px;
+}
+    
